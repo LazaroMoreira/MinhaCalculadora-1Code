@@ -1,0 +1,90 @@
+body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.total {
+    border-style: none;
+    height: 440px;
+    width: 310px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 7px #5f5f5f;
+    background-color: #c4c4c4;
+}
+
+
+.Visor {
+    height: 60px;
+    width: 270px;
+    text-align: right;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 18px;
+    margin-bottom: 20px;
+    background-color: rgb(116, 159, 116);
+    overflow: hidden;
+    white-space: nowrap
+   
+    /*word-wrap:initial ; 
+    text-overflow: ellipsis;*/
+}
+
+.esquerd {
+    height: 50px;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 23px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #5f5f5f;
+    border: none;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@font-face {
+    font-family: Calculator;
+    src: url(Calculator.ttf);
+}
+
+p {
+    text-align: right;
+    margin: auto;
+    margin-top: 6px;
+    margin-right: 10px;
+    font-family: Calculator;
+    color: rgb(20, 46, 16);
+    font-size: 40px;
+
+}
+
+
+.botaoespecial {
+    height: 50px;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 40px;
+    border-radius: 23px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #5f5f5f;
+    border: none;
+
+}
+
+.esquerd:hover {
+    background-color: rgb(59, 124, 197);
+    transform: scale(0.9);
+}
+
+.botaoespecial:hover {
+    background-color: rgb(59, 124, 197);
+    transform: scale(0.9);
+}
